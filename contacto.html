@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>PC Partes - Contacto</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>        
+        <header>
+            <div class="container-fluid">
+                <div class="row logoMain">    
+                <a href="index.html"><img class="img-fluid" src="images/logo-small.jpg" alt="logo"></a>
+                </div>
+                <div class="row phrase">
+                    <h1 class="col-lg-10 offset-lg-1">Los productos, cuando vos los necesitas.</h1>
+                </div>
+            </div>
+
+            <!--menú desplegable, para md en adelante-->
+            <div class="container-fluid d-none d-md-block">
+                <div class="row menuMain__">
+                    <ul class="nav">
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="index.html">Inicio</a></li>       
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="cpus.html">CPU'S</a></li>            
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="vgas.html">VGA'S</a></li>
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="psu.html">PSU</a></li>
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="contacto.html">Contacto</a></li>       
+                    </ul>
+                </div>
+            </div>
+
+            <!--menú desplegable, solo para sm/xs-->
+            <div class="container-fluid d-md-none">
+                <div class="row dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menú
+                        <span class="caret"></span></button>                
+                        <ul class="dropdown-menu w-100 menuMain__">
+                            <li><a class="nav-link" href="index.html">Inicio</a></li>       
+                            <li><a class="nav-link" href="cpus.html">CPU'S</a></li>            
+                            <li><a class="nav-link" href="vgas.html">VGA'S</a></li>
+                            <li><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
+                            <li><a class="nav-link" href="psu.html">PSU</a></li>
+                            <li><a class="nav-link" href="contacto.html">Contacto</a></li>       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>  
+        
+        <div class="container philosophy__">
+            <h1 class="row col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-2 offset-sm-5">Nuestra filosofía</h1>
+            <div class="container">
+                <p class="row">Lorem ipsum dolor sit amet consectetur, adipiscing elit integer dapibus euismod aliquam, 
+                augue nostra enim phasellus. Integer auctor gravida a luctus cubilia curae ad, mus pellentesque 
+                habitasse venenatis commodo viverra, elementum rhoncus aliquet semper himenaeos ante. Aliquet consequat 
+                neque egestas curabitur auctor taciti eros urna, felis quam luctus posuere nec himenaeos venenatis porttitor, 
+                sollicitudin nullam nibh massa proin natoque etiam. Purus lacinia luctus velit senectus ornare 
+                semper netus fermentum facilisis, proin nullam congue litora mi ligula interdum eget commodo, ante parturient 
+                rutrum quam magnis maecenas vitae id. Molestie ante dictum tincidunt nam blandit sagittis euismod torquent,
+                id commodo quis sociis malesuada mauris. Interdum dictumst suspendisse ornare fermentum magnis turpis risus 
+                dapibus est, penatibus placerat fringilla taciti malesuada sociosqu laoreet eu ligula class, elementum proin
+                mus pretium condimentum sem velit litora.
+                </p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <form action="gracias.html" method="POST">                    
+                <fieldset>
+                    <h1 class="suscribite">Suscribite!</h1> 
+                    
+                    <div class="form-group">
+                        <label for="nombre"></label>
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre y apellido"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" name="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="horarios"></label>
+                        <select name="horarios" class="form-control">
+                            <option selected="selected">Horarios de contacto...</option>
+                            <option value="07-12">07-12</option>
+                            <option value="12-17">12-17</option>
+                            <option value="17-22">17-22</option>
+                        </select>
+                    </div>
+                    <div class="form-group colorTxt">
+                        <label for="info" >¿Qué novedades te gustaría recibir?</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="descuentos" value="Si"/> Descuentos
+                        <input type="checkbox" name="productos" value="Si"/> Próximos productos
+                        <input type="checkbox" name="noticias" value="Si"/> Noticias
+                    </div>
+                    <div class="form-group">
+                        <button type="reset" class="btn btn-primary">Limpiar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>        
+                </fieldset>                    
+            </form>
+        </div> 
+   
+        <div class="container-fluid footWrapper__">
+            <footer class="row" >
+                <ul class="nav">
+                    <li class="nav-item col-lg-2 offset-lg-1 col-md-2 offset-md-1 d-none d-md-block align-self-center"><a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo"></a></li>                                
+                    <li class="nav-item col-lg-1 offset-lg-1 col-md-2 col-sm-2 col-2 align-self-center"><a href="https://www.facebook.com" target="_blank"><img src="images/icons/facebook_icon.png" class="img-fluid"></a></li>
+                    <li class="nav-item col-lg-1 col-md-2 col-sm-2 col-2 align-self-center"><a href="https://www.twitter.com" target="_blank"><img src="images/icons/twitter_icon.png" class="img-fluid"></a></li>
+                    <li class="nav-item col-lg-1 col-md-2 col-sm-2 col-2 align-self-center"><a href="https://www.youtube.com" target="_blank"><img src="images/icons/youtube_icon.png" class="img-fluid"></a></li>
+                    <li class="nav-item col-lg-1 col-md-2 col-sm-2 col-2 align-self-center"><a href="https://www.instagram.com" target="_blank"><img src="images/icons/instagram_icon.png" class="img-fluid"></a></li>                
+                </ul>
+            </footer>
+        </div>        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+

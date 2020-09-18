@@ -1,0 +1,147 @@
+@import "colores";
+@import "ops";
+
+.menuMain__ {
+    justify-content: center;
+    padding: 0.5rem;
+    border: 0.313rem;
+    border-style: solid none solid none;
+    border-color: $borders;
+
+    a {
+        color: $links; 
+        font-family: sans-serif;
+        font-size: x-large;
+    }
+
+    a:hover {
+        color: $text;    
+    }
+}
+
+.philosophy__ {    
+    margin-bottom: $margin - 3;
+
+    h1 {
+        justify-content: center;
+        color: $text;  
+        font-size: 2rem;
+        margin-bottom: $margin - 3.5;    
+        padding-top: 2rem;
+    }
+}
+
+.phrase {
+    color: $links;
+    text-align: center;
+    font-family: Verdana;    
+    margin-bottom: $margin - 3;
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: $margin - 3;
+    }
+}
+
+.menuIzq__ { 
+    
+    li {
+        padding: 0.5rem;
+        color: $text;
+        border-color: $borders;
+        border-style: none none none solid;
+        margin: $margin - 4.375;
+        list-style-type: none;
+        font-family: sans-serif;
+    }
+
+    li:hover {
+        color: $links;
+        transform: translateX(5px);
+    }
+}
+
+.productContainer__ {
+
+    li {
+        margin-top: $margin;
+        list-style-type: none;
+        font-family: verdana;
+        font-size: 1.5rem;
+        text-align: center;
+        color: $text;
+
+        img {
+            width: 100%;
+            height: 300px;
+            border-style: double;
+            border-color: $borders;    
+            transition: 0.5s;    
+        }
+
+        img:hover {
+            transform: translateY(-15px); 
+        }
+    }
+}
+
+.imgCarrusel { 
+    
+    div{
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-style: double;
+            border-color: $borders;
+        }
+    }
+}
+
+/*css suelto*/
+
+.logoMain {
+    justify-content: center;
+}
+
+p.row, .form-group {
+    color: $text;
+}
+
+.suscribite {
+    text-align: center;
+    color: $text;
+    font-size: 2rem;
+}
+
+.footWrapper__ {
+    border: 0.313rem;
+    border-style: solid none none none;
+    border-color: $borders;
+}
+
+body { 
+    background: url("../images/background2.jpg") fixed;
+    background-size: cover;
+}
+
+.carruselItem img {
+    max-width: 100%;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.brandsContainer {
+    border-style: solid none none none;
+    border-color: $borders;
+    margin-top: $margin - 2;
+}
+
+.brandsItem {
+    height: 80%;
+    width: 80%;
+}
+
+
