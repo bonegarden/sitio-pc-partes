@@ -1,0 +1,4 @@
+1) agregué los meta "description" y "keywords" para cada página
+2) especifiqué el idioma del sitio
+3) verifiqué los tittulos de cada página - son breves y descritpivos
+
