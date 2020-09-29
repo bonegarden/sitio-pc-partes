@@ -102,6 +102,7 @@
 
 .logoMain {
     justify-content: center;
+    margin: $margin - 3
 }
 
 p.row, .form-group {
@@ -118,6 +119,9 @@ p.row, .form-group {
     border: 0.313rem;
     border-style: solid none none none;
     border-color: $borders;
+}
+.footWrapper__content {
+    margin: $margin - 3 0 $margin - 3 0;
 }
 
 body { 
