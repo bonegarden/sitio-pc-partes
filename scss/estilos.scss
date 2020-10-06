@@ -9,13 +9,13 @@
     border-color: $borders;
 
     a {
-        color: $links; 
-        font-family: sans-serif;
+        color: $text; 
+        font-family: 'Montserrat', sans-serif;
         font-size: x-large;
     }
 
     a:hover {
-        color: $text;    
+        color: $links;    
     }
 }
 
@@ -34,7 +34,7 @@
 .phrase {
     color: $links;
     text-align: center;
-    font-family: Verdana;    
+    font-family: 'Montserrat', sans-serif;    
     margin-bottom: $margin - 3;
 
     h1 {
@@ -52,7 +52,7 @@
         border-style: none none none solid;
         margin: $margin - 4.375;
         list-style-type: none;
-        font-family: sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     li:hover {
@@ -66,7 +66,7 @@
     li {
         margin-top: $margin;
         list-style-type: none;
-        font-family: verdana;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.5rem;
         text-align: center;
         color: $text;
@@ -116,7 +116,6 @@ p.row, .form-group {
 }
 
 .footWrapper__ {
-    border: 0.313rem;
     border-style: solid none none none;
     border-color: $borders;
 }
@@ -125,8 +124,11 @@ p.row, .form-group {
 }
 
 body { 
-    background: url("../images/background2.jpg") fixed;
-    background-size: cover;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .carruselItem img {
@@ -141,6 +143,7 @@ body {
     border-style: solid none none none;
     border-color: $borders;
     margin-top: $margin - 2;
+    
 }
 
 .brandsItem {
