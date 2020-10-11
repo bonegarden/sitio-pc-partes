@@ -22,16 +22,24 @@
             </div>
 
             <!--menú ppal, para md en adelante-->
-            <div class="container-fluid d-none d-md-block">
-                <div class="row menuMain__">
-                    <ul class="nav">
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="index.html">Inicio</a></li>       
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="cpus.html">CPU'S</a></li>            
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="vgas.html">VGA'S</a></li>
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="psu.html">PSU</a></li>
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="contacto.html">Contacto</a></li>       
-                    </ul>
+            <div class="d-none d-md-block">
+                <div class="row">
+                    <div class="col-10 menuMain__">
+                        <ul class="nav">
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="index.html">Inicio</a></li>       
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="cpus.html">CPU'S</a></li>            
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="vgas.html">VGA'S</a></li>
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="psu.html">PSU</a></li>
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="contacto.html">Contacto</a></li>       
+                        </ul>
+                    </div>
+                    <div class="col-2 menuMainExt">                    
+                        <div class="form-group">
+                            <label for="producto"></label>
+                            <input type="text" class="form-control" name="producto" placeholder="Buscá tu producto">
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -53,72 +61,133 @@
             </div>
         </header>
 
-        <!--combos-->
-        <div class="container d-flex justify-content-center philosophy__">
-            <h1>Combos armados</h1>                       
-        </div>
+        <h1 class="row">Home</h1>
 
-        <section class="container">
-            <div class="row">                
-                <div class="col-lg-12">
-                    <div id="carruselCombos" class="carousel slide">                                                
-                        <div class="carousel-inner imgCarrusel">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-pentium.jpg" alt="microprocesador de linea pentium">                                        
-                                    </div>                                    
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-ryzen3.jpg" alt="microprocesador de linea ryzen3">                                        
-                                    </div>
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-ryzen5.jpg" alt="microprocesador de linea ryzen5">                                        
+        <!--combos lg-->
+        <div class="d-none d-md-block">
+            <div class="container d-flex justify-content-center philosophy__">
+                <h1>Combos armados</h1>                       
+            </div>
+
+            <section class="container">
+                <div class="row">                
+                    <div class="col-lg-12">
+                        <div id="carruselCombos" class="carousel slide" data-ride="carousel" data-interval="2500">
+                            
+                            <ul class="carousel-indicators">
+                                <li data-target="#carruselCombos" data-slide-to="0" class="active"></li>
+                                <li data-target="#carruselCombos" data-slide-to="1"></li>
+                                <li data-target="#carruselCombos" data-slide-to="2"></li>
+                            </ul>
+                            
+                            <div class="carousel-inner imgCarrusel">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-pentium.jpg" alt="microprocesador de linea pentium">                                        
+                                        </div>                                    
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-ryzen3.jpg" alt="microprocesador de linea ryzen3">                                        
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-ryzen5.jpg" alt="microprocesador de linea ryzen5">                                        
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="carousel-item">
-                                <div class="row">                            
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-i3.jpg" alt="microprocesador de linea i3">                                        
-                                    </div>
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-i5.jpg" alt="microprocesador de linea i5">                                        
-                                    </div>
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-i7.jpg" alt="microprocesador de linea i7">                                        
-                                    </div>
-                                </div>                                
-                            </div>
-                            
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-a-series.jpg" alt="microprocesador de linea a-series">                                        
-                                    </div>
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-athlon.jpg" alt="microprocesador de linea athlon">                                        
-                                    </div>
-                                    <div class="col-lg-4 carruselItem">                                        
-                                        <img src="images/combos/combo-celeron.jpg" alt="microprocesador de linea celeron">                                        
-                                    </div>                                    
+                                
+                                <div class="carousel-item">
+                                    <div class="row">                            
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-i3.jpg" alt="microprocesador de linea i3">                                        
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-i5.jpg" alt="microprocesador de linea i5">                                        
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-i7.jpg" alt="microprocesador de linea i7">                                        
+                                        </div>
+                                    </div>                                
                                 </div>
-                            </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-a-series.jpg" alt="microprocesador de linea a-series">                                        
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-athlon.jpg" alt="microprocesador de linea athlon">                                        
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 carruselItem">                                        
+                                            <img src="images/combos/combo-celeron.jpg" alt="microprocesador de linea celeron">                                        
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div> 
                         </div>
-                        
-                        <a class="carousel-control-prev" href="#carruselCombos" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carruselCombos" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
+            </section>
+        </div>
+        <!--/combos lg-->
+        
+        <!--combos sm-->
+        <div class="d-md-none">
+            <div class="container d-flex justify-content-center philosophy__">
+                <h1>Combos armados</h1>
             </div>
-        </section>
-        <!--/combos-->       
+            
+            <section class="container">
+                <div class="row">                
+                    <div>
+                        <div id="carruselCombos" class="carousel slide" data-ride="carousel" data-interval="2500">
+                            
+                            <ul class="carousel-indicators">
+                                <li data-target="#carruselCombos" data-slide-to="0" class="active"></li>
+                                <li data-target="#carruselCombos" data-slide-to="1"></li>
+                                <li data-target="#carruselCombos" data-slide-to="2"></li>
+                            </ul>
+
+                            <div class="carousel-inner imgCarrusel">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-6 carruselItem">                                        
+                                            <img src="images/combos/combo-pentium.jpg" alt="microprocesador de linea pentium">                                        
+                                        </div>                                    
+                                        <div class="col-sm-6 carruselItem">                                        
+                                            <img src="images/combos/combo-ryzen3.jpg" alt="microprocesador de linea ryzen3">                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">                            
+                                        <div class="col-sm-6 carruselItem">                                        
+                                            <img src="images/combos/combo-i3.jpg" alt="microprocesador de linea i3">                                        
+                                        </div>
+                                        <div class="col-sm-6 carruselItem">                                        
+                                            <img src="images/combos/combo-i5.jpg" alt="microprocesador de linea i5">                                        
+                                        </div>
+                                    </div>                                
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-6 carruselItem">                                        
+                                            <img src="images/combos/combo-a-series.jpg" alt="microprocesador de linea a-series">                                        
+                                        </div>
+                                        <div class="col-sm-6 carruselItem">                                        
+                                            <img src="images/combos/combo-athlon.jpg" alt="microprocesador de linea athlon">                                        
+                                        </div>                                   
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--/combos sm-->
+
      
         <!--discounts-->        
         <div class="container d-flex justify-content-center philosophy__">
@@ -128,16 +197,14 @@
         <section class="container">
             <div class="row">                
                 <div class="col-lg-12">
-                    <div id="carrusel" class="carousel slide">
+                    <div id="carrusel" class="carousel slide" data-ride="carousel" data-interval="2500">
 
                         <ul class="carousel-indicators">
                             <li data-target="#carrusel" data-slide-to="0" class="active"></li>
                             <li data-target="#carrusel" data-slide-to="1"></li>
                         </ul>
-
                         
                         <div class="carousel-inner imgCarrusel">
-
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-12 carruselItem">                                        

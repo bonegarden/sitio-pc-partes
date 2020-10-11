@@ -21,26 +21,34 @@
                 </div>
             </div>
 
-            <!--menú desplegable, para md en adelante-->
-            <div class="container-fluid d-none d-md-block">
-                <div class="row menuMain__">
-                    <ul class="nav">
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="index.html">Inicio</a></li>       
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="cpus.html">CPU'S</a></li>            
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="vgas.html">VGA'S</a></li>
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="psu.html">PSU</a></li>
-                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="contacto.html">Contacto</a></li>       
-                    </ul>
+            <!--menú ppal, para md en adelante-->
+            <div class="d-none d-md-block">
+                <div class="row">
+                    <div class="col-10 menuMain__">
+                        <ul class="nav">
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="index.html">Inicio</a></li>       
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="cpus.html">CPU'S</a></li>            
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="vgas.html">VGA'S</a></li>
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="psu.html">PSU</a></li>
+                            <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="contacto.html">Contacto</a></li>       
+                        </ul>
+                    </div>
+                    <div class="col-2 menuMainExt">                    
+                        <div class="form-group">
+                            <label for="producto"></label>
+                            <input type="text" class="form-control" name="producto" placeholder="Buscá tu producto">
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!--menú desplegable, solo para sm/xs-->
             <div class="container-fluid d-md-none">
                 <div class="row dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menú
+                    <button class="btn botonDp dropdown-toggle col-12" type="button" data-toggle="dropdown">Menú
                         <span class="caret"></span></button>                
-                        <ul class="dropdown-menu w100 menuMain__">
+                        <ul class="dropdown-menu w-100 menuMain__">
                             <li><a class="nav-link" href="index.html">Inicio</a></li>       
                             <li><a class="nav-link" href="cpus.html">CPU'S</a></li>            
                             <li><a class="nav-link" href="vgas.html">VGA'S</a></li>
@@ -51,7 +59,9 @@
                     </div>
                 </div>
             </div>
-        </header> 
+        </header>
+        
+        <h1 class="row">Microprocesadores</h1>
 
         <section class="container-fluid">
             <div class="row">

@@ -1,0 +1,24 @@
+v agregar breadcrumbs// título a cada página
+v pasar todas las img de productos a png
+checkear responsive en todas las páginas 
+v arreglar carrouseles de main
+v el segundo carrusel no se mueve
+v agregar una barra de búsqueda al menú ppal y acomodar las opciones armónicamente
+algun hover, sombreado en los íconos de redes en footer
+arreglar responsive de footer
+arreglar el h1 de la frase
+
+
+<!--menú ppal, para md en adelante-->
+            <div class="container-fluid d-none d-md-block">
+                <div class="row menuMain__">
+                    <ul class="nav">
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="index.html">Inicio</a></li>       
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="cpus.html">CPU'S</a></li>            
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="vgas.html">VGA'S</a></li>
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="hddssd.html">HDD/SSD</a></li>
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="psu.html">PSU</a></li>
+                        <li class="nav-item col-lg-2 col-md-4 col-sm-12"><a class="nav-link" href="contacto.html">Contacto</a></li>       
+                    </ul>
+                </div>
+            </div>
