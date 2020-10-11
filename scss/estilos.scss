@@ -9,8 +9,7 @@
     border-color: $borders;
 
     a {
-        color: $text; 
-        font-family: 'Montserrat', sans-serif;
+        color: $text;
         font-size: x-large;
     }
 
@@ -24,7 +23,7 @@
 
     h1 {
         justify-content: center;
-        color: $text;  
+        color: $links;  
         font-size: 2rem;
         margin-bottom: $margin - 3.5;    
         padding-top: 2rem;
@@ -32,14 +31,17 @@
 }
 
 .phrase {
-    color: $links;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;    
+    text-align: center;  
     margin-bottom: $margin - 3;
 
     h1 {
+        color: $text;
         font-size: 1.5rem;
         margin-top: $margin - 3;
+    }
+
+    h1:hover {
+        color: $links;
     }
 }
 
@@ -53,7 +55,6 @@
         border-style: none none none solid;
         margin: $margin - 4.375;
         list-style-type: none;
-        font-family: 'Montserrat', sans-serif;
     }
 
     li:hover {
@@ -67,7 +68,6 @@
     li {
         margin-top: $margin;
         list-style-type: none;
-        font-family: 'Montserrat', sans-serif;
         font-size: 1.5rem;
         text-align: center;
         color: $text;
@@ -99,6 +99,15 @@
     }
 }
 
+.titles {
+
+    h1 {
+    margin-bottom: $margin - 3;
+    color: $links;  
+    font-size: 2rem;
+    }
+}
+
 /*css suelto*/
 
 .logoMain {
@@ -113,6 +122,7 @@ p.row, .form-group {
 .suscribite {
     text-align: center;
     font-size: 2rem;
+    color: $links;
 }
 
 .footWrapper__ {
@@ -125,10 +135,10 @@ p.row, .form-group {
 
 body { 
     background-color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     color: $text;
     justify-content: center;
     margin-top: 2rem;
@@ -157,14 +167,12 @@ h1 {
 .botonDp {
     color: $links;
     background-color: $text;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .menuMainExt {
     border: 0.313rem;
     border-style: solid none solid none;
-    border-color: darkred;
-    font-family: 'Montserrat', sans-serif;
+    border-color: $borders;
 }
 
 .carousel-indicators li {
@@ -174,4 +182,21 @@ h1 {
   
 .carousel-indicators .active {
     background-color: rgb(68, 68, 68);
+}
+
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
